@@ -19,9 +19,10 @@ After following the above steps, you are good to go!
 - Plugin manager : [Packer](https://github.com/wbthomason/packer.nvim)
 - Colorscheme : [Nightfly](https://github.com/bluz71/vim-nightfly-colors)
 - Comment : [numToStr/Comment](https://github.com/numToStr/Comment.nvim)
-- File explorer : [Nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
+- File explorer : [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - Gitsigns : [Gitsigns](https://github.com/lewis6991/gitsigns.nvim)
 - Fuzzy finder : [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - LSP : [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
-- Syntax highlighting: [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-
+- Syntax highlighting : [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- Autopairs : [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- Icons : [web-dev-icons](https://github.com/nvim-tree/nvim-web-devicons)
