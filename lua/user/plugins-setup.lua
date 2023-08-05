@@ -76,6 +76,12 @@ return packer.startup(function(use)
     end,
   })
 
+  -- Autopairs
+  use ("windwp/nvim-autopairs")
+
+  -- Icons
+  use 'nvim-tree/nvim-web-devicons'
+
 
   if packer_bootstrap then
     require("packer").sync()
