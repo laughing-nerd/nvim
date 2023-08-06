@@ -71,6 +71,9 @@ return packer.startup(function(use)
 
   -- Treesitter
   use({"nvim-treesitter/nvim-treesitter",
+    dependencies = {
+      'JoosepAlviste/nvim-ts-context-commentstring',
+    },
     run = function()
       require("nvim-treesitter.install").update({ with_sync = true })
     end,
@@ -81,6 +84,9 @@ return packer.startup(function(use)
 
   -- Icons
   use 'nvim-tree/nvim-web-devicons'
+
+  -- Colorizer
+  use "norcalli/nvim-colorizer.lua"
 
 
   if packer_bootstrap then
