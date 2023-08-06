@@ -26,3 +26,4 @@ After following the above steps, you are good to go!
 - Syntax highlighting : [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - Autopairs : [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - Icons : [web-dev-icons](https://github.com/nvim-tree/nvim-web-devicons)
+- Colorizer : [Colorizer](https://github.com/norcalli/nvim-colorizer.lua)
