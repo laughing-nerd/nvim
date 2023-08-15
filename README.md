@@ -17,7 +17,7 @@ After following the above steps, you are good to go!
 
 # Plugins used
 - Plugin manager : [Packer](https://github.com/wbthomason/packer.nvim)
-- Colorscheme : [Nightfly](https://github.com/bluz71/vim-nightfly-colors)
+- Colorscheme : [Gruvbox](https://github.com/morhetz/gruvbox)
 - Comment : [numToStr/Comment](https://github.com/numToStr/Comment.nvim)
 - File explorer : [Nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - Gitsigns : [Gitsigns](https://github.com/lewis6991/gitsigns.nvim)

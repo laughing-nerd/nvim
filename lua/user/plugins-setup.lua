@@ -27,7 +27,7 @@ return packer.startup(function(use)
   use("wbthomason/packer.nvim")
 
   -- Colorscheme
-  use("bluz71/vim-nightfly-guicolors")
+  use("morhetz/gruvbox")
  
   -- Comment plugin
   use("numToStr/Comment.nvim")
