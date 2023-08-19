@@ -27,8 +27,8 @@ return packer.startup(function(use)
   use("wbthomason/packer.nvim")
 
   -- Colorscheme
-  use("morhetz/gruvbox")
- 
+  use("bluz71/vim-nightfly-colors")
+
   -- Comment plugin
   use("numToStr/Comment.nvim")
 
@@ -80,7 +80,7 @@ return packer.startup(function(use)
   })
 
   -- Autopairs
-  use ("windwp/nvim-autopairs")
+  use "windwp/nvim-autopairs"
 
   -- Icons
   use 'nvim-tree/nvim-web-devicons'
@@ -88,6 +88,8 @@ return packer.startup(function(use)
   -- Colorizer
   use "norcalli/nvim-colorizer.lua"
 
+  -- Indentline
+  use ("lukas-reineke/indent-blankline.nvim")
 
   if packer_bootstrap then
     require("packer").sync()

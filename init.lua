@@ -12,3 +12,5 @@ require("user.plugins.lsp")
 require("user.plugins.treesitter")
 require("user.plugins.autopairs")
 require("user.plugins.colors")
+require("user.plugins.indentline")
+
