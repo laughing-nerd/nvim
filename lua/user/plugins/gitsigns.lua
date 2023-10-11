@@ -1,6 +1,7 @@
-local installed, gitsigns = pcall(require, "gitsigns")
-if not installed then
-  return
-end
-
-gitsigns.setup()
+return {
+  "lewis6991/gitsigns.nvim",
+  config = function()
+    local gitsigns = require("gitsigns")
+    gitsigns.setup()
+  end
+}
